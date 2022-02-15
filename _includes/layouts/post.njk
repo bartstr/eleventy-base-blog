@@ -26,10 +26,14 @@ templateClass: tmpl-post
 <p>
 <form action="POST" name="post-like" data-netlify="true">
 <label>Do you like this post?</label>
+<div class="form-check">
 <input type="radio" id="post-like-yes" name="like" value="yes" checked>
 <label for="post-like-yes">Yes</label>
+</div>
+<div class="form-check">
 <input type="radio" id="post-like-no" name="like" value="no">
 <label for="post-like-no">No</label>
+</div>
 <button class="btn-primary" type="submit">Submit</button>
 </form>
 </p>
