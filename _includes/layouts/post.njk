@@ -23,3 +23,13 @@ templateClass: tmpl-post
 </ul>
 {%- endif %}
 {%- endif %}
+<p>
+<form action="POST" name="post-like" data-netlify="true">
+<label>Do you like this post?</label>
+<input type="radio" id="post-like-yes" name="like" value="yes" checked>
+<label for="post-like-yes">Yes</label>
+<input type="radio" id="post-like-no" name="like" value="no">
+<label for="post-like-no">No</label>
+<button class="btn-primary" type="submit">Submit</button>
+</form>
+</p>
